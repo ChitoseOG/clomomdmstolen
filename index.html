@@ -1,0 +1,50 @@
+<html><head>
+<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CLOMO - MDM</title>
+<link rel="stylesheet" media="screen" href="//cdn.clomo.com/clomoassets/mdm/assets/manifest/iphone-ef546779f63ac93d24eda366506ebcd077d941b16e3821fabaf088911277f7e4.css">
+<script src="//cdn.clomo.com/clomoassets/mdm/assets/manifest/iphone-128d468b59db1a0d58eba8c2bbc55c75c87dfd6694f093bc3d1c653b8efa393f.js"></script>
+<style type="text/css">
+  .page { text-align:center; height:100%; }
+  .page > * { width:320px; margin-left:auto;margin-right:auto; }
+  .page > div.toolbar { width:100%; }
+</style>
+</head><body id="jqt">
+
+
+<div class="current">
+  <div class="toolbar"> 
+	<h1>インストール</h1> 
+  </div> 
+  <form id="goto_mobile_config" action="https://mdm.clomo.com/sapporonichidai.ed.jp/ios/mobileconfig.mobileconfig" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="GBToVaaK9Gj5b9BV77i7mymqEGtukoV97PLPHo2Yanp665mimoaxfakcLPZ9CbDYadOMr66WKi3kevF7yH6BwA==">
+  <input type="hidden" name="ios_version" id="ios_version" value="unknown">
+  </form>
+
+  <ul>
+    <li style="color:#333;font-size: 90%;">
+      <span>構成プロファイルをダウンロードしました。インストール完了後は本画面を閉じてください。</span>
+    </li>
+  </ul>
+
+  <div style="padding: 0px 20px 0px 20px;">
+    <span style="color:#ff0000;">※ iOS のバージョンが 12.2 以上の場合は、以下の手順でインストールを完了してください。</span>
+    <div style="margin-left: 5px;">
+      <span>1. ホーム画面から「設定」アプリを起動</span>
+      <br>
+      <span>2. 設定画面の上方に表示されている「プロファイルがダウンロードされました」をタップ</span>
+      <br>
+      <span>3. MDM 構成プロファイルのインストール画面が表示されたら、右上の「インストール」をタップ</span>
+    </div>
+  </div>
+
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#goto_mobile_config').submit();
+});
+</script>
+
+
+
+</body></html>
